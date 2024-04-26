@@ -47,7 +47,7 @@ export default function Add() {
                 </div>
                 <div className={styles.add__info}>
                     <h2>Task Information</h2>
-                    <textarea value={infoText} onChange={onChangeInfo} name="" id="" cols="90" rows="3" placeholder="Enter task information..."></textarea>
+                    <textarea value={infoText} onChange={onChangeInfo} placeholder="Enter task information..."></textarea>
                 </div>
             </div>
             <List list = {addTask} onComplete={onComplete} onDelete={onDelete} />
